@@ -13,4 +13,6 @@ print(nplist.shape)
 
 
 import test2
-test2._pycache_test()
+test2._pycache_test() #bytecode file of test2.py is only updated when source code of test2.py is updated, not the other scripts
+
+#print("bytecode file is not updated in _pycache_ folder since test2.py source code is not updated")
