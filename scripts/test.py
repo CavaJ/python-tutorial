@@ -10,3 +10,7 @@ nplist = np.asarray(list)
 print(nplist)
 print(type(nplist))
 print(nplist.shape)
+
+
+import test2
+test2._pycache_test()
